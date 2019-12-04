@@ -1,0 +1,83 @@
+/* Shutterbugg Bootstrap Project 12/3/19 */
+
+.container {
+	max-width: 968px;
+}
+
+.main {
+	background-image: url("../images/intro.jpg");
+	height: 600px;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 {
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-size: 40px;
+ 	color: #fff;
+ 	-webkit-animation: glow 1s ease-in-out infinite alternate;
+ 	-moz-animation: glow 1s ease-in-out infinite alternate;
+ 	animation: glow 1s ease-in-out infinite alternate;
+ 	transition: text-size 1s
+}
+
+@-webkit-keyframes glow {
+  from {
+       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.main h1:hover {
+	font-size: 55px;
+}
+
+body {
+	background-color: wheat;
+}
+
+.main h2 {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+a.btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	font-size: 24px;
+	border-radius: 32px;
+	background-color: #ff4da6
+}
+
+.row {
+	padding-top: 50px;
+}
+
+.row h1 {
+	font-family: 'Special Elite', cursive;
+}
+
+#store {
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
